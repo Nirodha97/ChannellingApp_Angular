@@ -1,0 +1,25 @@
+.icon{
+    font-size: 3em !important;
+    width: 60px !important;
+    margin-top: -0.5em !important;
+}
+
+.button{
+    margin-left:  4em !important;
+}
+
+.date{
+    color:red;
+}
+.hospital{
+    color: seagreen;
+}
+
+.next{
+    color: white;
+    background-color: rebeccapurple;
+    padding: 1em;
+    width: 40px;
+    height: 40px;
+    margin-left: 1em ;
+}

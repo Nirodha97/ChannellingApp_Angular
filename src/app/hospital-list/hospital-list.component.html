@@ -1,0 +1,16 @@
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Hospital List</mat-card-title>
+      <mat-card-subtitle>Select any Hospital to Filter Sessions</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-selection-list #shoes [multiple]="false">
+            <mat-list-option *ngFor="let hospital of hospitals">
+              {{ hospital.name }} - {{hospital.place}}
+            </mat-list-option>
+          </mat-selection-list>
+    </mat-card-content>
+    
+  </mat-card>

@@ -1,0 +1,30 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-container {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.card{
+ width: 100%; 
+}
